@@ -13,6 +13,33 @@ Application Details:
 
 3) The "football_stats.py" file connects to the CBS Sports Touchdown leaders page and returns the top 20 touchdown scorers. 
    Each player's name, position, team, and touchdowns scored are displayed.
+   
+   For example, this is the current display:
+
+	   NFL's TOP 20 Touchdown Scorers for 2019 Regular Season
+	------------------------------------------------------------
+		   Player        |  Position  |    Team    | Touchdowns
+	------------------------------------------------------------
+	Aaron Jones          |     RB     |     GB     |     11    
+	Christian McCaffrey  |     RB     |    CAR     |     10    
+	Dalvin Cook          |     RB     |    MIN     |     9     
+	Austin Ekeler        |     RB     |    LAC     |     8     
+	Todd Gurley          |     RB     |    LAR     |     7     
+	Mark Ingram          |     RB     |    BAL     |     7     
+	Adam Thielen         |     WR     |    MIN     |     7     
+	D.J. Chark           |     WR     |    JAC     |     6     
+	Nick Chubb           |     RB     |    CLE     |     6     
+	Tevin Coleman        |     RB     |     SF     |     6     
+	Ezekiel Elliott      |     RB     |    DAL     |     6     
+	Mike Evans           |     WR     |     TB     |     6     
+	Chris Godwin         |     WR     |     TB     |     6     
+	Kenny Golladay       |     WR     |    DET     |     6     
+	Derrick Henry        |     RB     |    TEN     |     6     
+	Jordan Howard        |     RB     |    PHI     |     6     
+	Sony Michel          |     RB     |     NE     |     6     
+	Chris Carson         |     RB     |    SEA     |     5     
+	James Conner         |     RB     |    PIT     |     5     
+	Amari Cooper         |     WR     |    DAL     |     5 
 
 4) The "nfl_spreads.py" file connects to Football Locks website and returns the current week's NFL game spreads.
    The favorite, underdown, and spread points are displayed. The home team for each game is designated with the prefix "At".
