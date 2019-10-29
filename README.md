@@ -16,12 +16,11 @@ Application Details:
    
    For example, this is a possible current display for the top leader:
 
-	   NFL's TOP 20 Touchdown Scorers for 2019 Regular Season
-	------------------------------------------------------------
-		   Player        |  Position  |    Team    | Touchdowns
-	------------------------------------------------------------
-	Aaron Jones          |     RB     |     GB     |     11    
-
+		NFL's TOP 20 Touchdown Scorers for 2019 Regular Season
+		------------------------------------------------------
+		    Player     |  Position  |    Team    | Touchdowns
+		------------------------------------------------------
+		Aaron Jones    |     RB     |     GB     |     11    
 
 4) The "nfl_spreads.py" file connects to Football Locks website and returns the current week's NFL game spreads.
    The favorite, underdown, and spread points are displayed. The home team for each game is designated with the prefix "At".
