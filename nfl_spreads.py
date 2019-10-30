@@ -5,6 +5,7 @@ from urllib.error import HTTPError, URLError
 
 def process_url(url):
     """Function that takes in a url and returns the data back to the caller.
+    
     :param url: A string representation of a url that contains NFL Football Point Spread stats.
     :return: html: The html response after opening the url and reading the contents.
     """
@@ -42,13 +43,13 @@ def display_scraped_data(scrapped_data):
 
     # print statements to make data presentable
 
-    print('\nNFL Point Spread - Games Left in Current Week')
-    print('-' * 44)
-    print('{:^15} | {:^12} | {:^12}'.format('Favorite', 'Underdog', 'Spread'))
-    print('-' * 44)
+    print('\n     NFL Point Spread - Games Left in Current Week')
+    print('-' * 55)
+    print('{:^20} | {:^20} | {:^10}'.format('Favorite', 'Underdog', 'Spread'))
+    print('-' * 55)
 
     # default setup for displaying the player stats
-    display = '{:^15} | {:^12} | {:^12}'
+    display = '{:^20} | {:^20} | {:^10}'
 
     # create list that will contain the text version of the rows
     row_list = []
